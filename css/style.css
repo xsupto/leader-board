@@ -3,6 +3,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* Common style  */
+*{
+  margin: 0;
+}
  body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -24,6 +27,63 @@ border-radius: 5px;
 }
 
 /* Common style  */
+
+
+/*------------------- 
+    Nav Bar style  
+----------------------*/
+nav{
+  background-color: #562EFF;
+  display: flex;
+  justify-content: space-evenly;
+  height: 97px;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.logo h1{
+  margin-left: 20px;
+  font-size: 2em;
+}
+.menu ul{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.menu ul li {
+  display: flex;
+  list-style: none;
+  margin-right: 36px;
+
+  
+}
+
+.nav-text{
+  text-decoration: none;
+}
+.nav-text img{
+width: 40.42px;
+height: 51px;
+}
+
+.profile-img{
+  height: 51px;
+  width: 51px;
+}
+
+
+
+/*------------------- 
+    Nav Bar style  
+----------------------*/
+
 
 
 /* Top players style  */
@@ -108,6 +168,12 @@ hr{
  /*------------------- 
     coureses style 
  --------------------*/
+.course{
+padding: 16px;
+box-shadow: 0px 6px 14px #0000001c ;
+border-radius: 20px;
+}
+
 .courses{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -118,16 +184,21 @@ hr{
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
 }
 
+
  .course img{
-  width: 224px;
-  height: 104px;
+  /* width: 224px;
+  height: 104px; */
+  width: 100%;
+  height: 100%;
+ }
+ .course-titel{
+font-size: 20px;
  }
 
- .course-details{
 
- }
 .fa-star{
   font: size 12px; ;
 }
