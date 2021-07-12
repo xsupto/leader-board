@@ -95,6 +95,7 @@ height: 51px;
   font-size: 24px;
   color: #562EFF;
   margin-top: 3px;
+  margin-bottom: 30px;
   
 
 }
@@ -222,9 +223,12 @@ color: #FF4A60;;
 ------------------------------*/
 
 footer{
-  height: 80px;
+  display: flex;
+  height: 60px;
   background-color: indigo;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   
 
 }
@@ -234,8 +238,7 @@ footer{
   padding: 3px;
   border-radius: 9px;
   font-size: 12px;
-  margin-top: 10px;
-
+ 
 }
 
 
@@ -286,7 +289,7 @@ justify-content: center;
     }
     
     .players, .blogs , .courses{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     }
     
